@@ -1,84 +1,52 @@
 ---
 ---
-
-@string{aps = {American Physical Society,}}
-
-@book{einstein1956investigations,
-  bibtex_show={true},
-  title={Investigations on the Theory of the Brownian Movement},
-  author={Einstein, Albert},
-  year={1956},
-  publisher={Courier Corporation,},
-  preview={brownian-motion.gif}
-}
-
-@article{einstein1950meaning,
-  abbr={AJP},
-  bibtex_show={true},
-  title={The meaning of relativity},
-  author={Einstein, Albert and Taub, AH},
-  journal={American Journal of Physics,},
-  volume={18},
-  number={6},
-  pages={403--404},
-  year={1950},
-  publisher={American Association of Physics Teachers,}
-}
-
-@article{PhysRev.47.777,
-  abbr={PhysRev},
-  title={Can Quantum-Mechanical Description of Physical Reality Be Considered Complete?},
-  author={Einstein, A. and Podolsky, B. and Rosen, N.},
-  abstract={In a complete theory there is an element corresponding to each element of reality. A sufficient condition for the reality of a physical quantity is the possibility of predicting it with certainty, without disturbing the system. In quantum mechanics in the case of two physical quantities described by non-commuting operators, the knowledge of one precludes the knowledge of the other. Then either (1) the description of reality given by the wave function in quantum mechanics is not complete or (2) these two quantities cannot have simultaneous reality. Consideration of the problem of making predictions concerning a system on the basis of measurements made on another system that had previously interacted with it leads to the result that if (1) is false then (2) is also false. One is thus led to conclude that the description of reality as given by a wave function is not complete.},
-  journal={Phys. Rev.,},
-  volume={47},
-  issue={10},
-  pages={777--780},
-  numpages={0},
-  year={1935},
-  month={May},
-  publisher=aps,
-  doi={10.1103/PhysRev.47.777},
-  url={http://link.aps.org/doi/10.1103/PhysRev.47.777},
-  html={https://journals.aps.org/pr/abstract/10.1103/PhysRev.47.777},
-  pdf={example_pdf.pdf},
-  altmetric={248277},
-  dimensions={true},
-  selected={true}
-}
-
-@article{einstein1905molekularkinetischen,
-  title={{\"U}ber die von der molekularkinetischen Theorie der W{\"a}rme geforderte Bewegung von in ruhenden Fl{\"u}ssigkeiten suspendierten Teilchen},
-  author={Einstein, A.},
-  journal={Annalen der physik,},
-  volume={322},
-  number={8},
-  pages={549--560},
-  year={1905},
-  publisher={Wiley Online Library}
-}
-
-@article{einstein1905movement,
-  abbr={Ann. Phys.},
-  title={Un the movement of small particles suspended in statiunary liquids required by the molecular-kinetic theory 0f heat},
-  author={Einstein, A.},
-  journal={Ann. Phys.,},
-  volume={17},
-  pages={549--560},
-  year={1905}
-}
-
-@article{einstein1905electrodynamics,
-  title={On the electrodynamics of moving bodies},
-  author={Einstein, A.},
-  year={1905}
-}
-
-@book{przibram1967letters,
-  bibtex_show={true},
-  title={Letters on wave mechanics},
-  author={Einstein, Albert and Schrödinger, Erwin and Planck, Max and Lorentz, Hendrik Antoon and Przibram, Karl},
-  year={1967},
-  publisher={Vision},
-  preview={wave-mechanics.gif}
+@article{10.14778/3529337.3529345,
+    abbr={VLDB},
+    author = {Huynh, Andy and Chaudhari, Harshal A. and Terzi, Evimaria and Athanassoulis, Manos},
+    title = {Endure: A Robust Tuning Paradigm for LSM Trees under Workload Uncertainty},
+    year = {2022},
+    issue_date = {April 2022},
+    publisher = {VLDB Endowment},
+    volume = {15},
+    number = {8},
+    issn = {2150-8097},
+    url = {https://doi.org/10.14778/3529337.3529345},
+    doi = {10.14778/3529337.3529345},
+    abstract = {Log-Structured Merge trees (LSM trees) are increasingly used as
+                the storage engines behind several data systems, frequently
+                deployed in the cloud. Similar to other database architectures,
+                LSM trees consider information about the expected workload
+                (e.g., reads vs. writes, point vs. range queries) to optimize
+                their performance via tuning. However, operating in a shared
+                infrastructure like the cloud comes with workload uncertainty
+                due to the fast-evolving nature of modern applications. Systems
+                with static tuning discount the variability of such hybrid
+                workloads and hence provide an inconsistent and overall
+                suboptimal performance.To address this problem, we introduce
+                Endure - a new paradigm for tuning LSM trees in the presence of
+                workload uncertainty. Specifically, we focus on the impact of
+                the choice of compaction policies, size ratio, and memory
+                allocation on the overall performance. Endure considers a robust
+                formulation of the throughput maximization problem and
+                recommends a tuning that maximizes the worst-case throughput
+                over the neighborhood of each expected workload. Additionally,
+                an uncertainty tuning parameter controls the size of this
+                neighborhood, thereby allowing the output tunings to be
+                conservative or optimistic. Through both model-based and
+                extensive experimental evaluations of Endure in the
+                state-of-the-art LSM-based storage engine, RocksDB, we show that
+                the robust tuning methodology consistently outperforms classical
+                tuning strategies. The robust tunings output by Endure lead up
+                to a 5X improvement in throughput in the presence of
+                uncertainty. On the flip side, Endure tunings have negligible
+                performance loss when the observed workload exactly matches the
+                expected one.},
+    journal = {Proc. VLDB Endow.},
+    month = {jun},
+    pages = {1605–1618},
+    numpages = {14},
+    bibtex_show={true},
+    html={https://dl.acm.org/doi/10.14778/3529337.3529345},
+    pdf={endure.pdf},
+    selected={true}
 }
