@@ -1,7 +1,8 @@
 ---
 layout: post
-date: 2015-10-22 15:59:00-0400
+date: 2020-01-27
 inline: true
 ---
 
-A simple inline announcement.
+Poster at [NEDB2020](https://mitdbg.github.io/nedbday/2020/) on Robust Data
+Systems!
