@@ -1,4 +1,1 @@
-User-agent: *
-Disallow:
-
-Sitemap: https://www.ndhuynh.com/sitemap.xml
+User-agent: * Disallow: Sitemap: https://www.ndhuynh.com/sitemap.xml
