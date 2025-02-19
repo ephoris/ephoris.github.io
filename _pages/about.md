@@ -3,7 +3,7 @@ layout: about
 title: about
 permalink: /
 subtitle: >
-  Boston University.
+  <a href='https://www.bu.edu/cs/'>Computer Science @ Boston University</a>.
   <a href='https://midas.bu.edu/'>MiDAS Group</a> and
   <a href='https://disc.bu.edu/'>DiSC Lab</a>.
 
@@ -20,7 +20,7 @@ social: true # includes social icons at the bottom of the page
 announcements:
   enabled: true # includes a list of news items
   scrollable: true # adds a vertical scroll bar if there are more than 3 news items
-  limit: # leave blank to include all the news in the `_news` folder
+  limit: 8 # leave blank to include all the news in the `_news` folder
 
 latest_posts:
   enabled: false
