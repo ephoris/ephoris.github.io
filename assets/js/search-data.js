@@ -375,12 +375,10 @@ ninja.data = [{
           window.location.href = "/blog/2015/formatting-and-links/";
         
       },
-    },{id: "news-2020-nedb",
-          title: '2020_nedb',
+    },{id: "news-poster-at-nedb2020-on-robust-data-systems",
+          title: 'Poster at NEDB2020 on Robust Data Systems!',
           description: "",
-          section: "News",handler: () => {
-              window.location.href = "/news/2020_nedb/";
-            },},{id: "news-awarded-the-ibm-phd-fellowship",
+          section: "News",},{id: "news-awarded-the-ibm-phd-fellowship",
           title: 'Awarded the IBM PhD Fellowship',
           description: "",
           section: "News",},{id: "news-i-will-be-a-research-intern-at-netapp",
@@ -475,13 +473,6 @@ ninja.data = [{
         section: 'Socials',
         handler: () => {
           window.open("https://www.linkedin.com/in/ndhuynh0", "_blank");
-        },
-      },{
-        id: 'social-rss',
-        title: 'RSS Feed',
-        section: 'Socials',
-        handler: () => {
-          window.open("//feed.xml", "_blank");
         },
       },{
         id: 'social-scholar',
