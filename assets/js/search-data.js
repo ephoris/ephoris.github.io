@@ -375,16 +375,40 @@ ninja.data = [{
           window.location.href = "/blog/2015/formatting-and-links/";
         
       },
-    },{id: "news-a-simple-inline-announcement",
-          title: 'A simple inline announcement.',
-          description: "",
-          section: "News",},{id: "news-a-long-announcement-with-details",
-          title: 'A long announcement with details',
+    },{id: "news-2020-nedb",
+          title: '2020_nedb',
           description: "",
           section: "News",handler: () => {
-              window.location.href = "/news/announcement_2/";
-            },},{id: "news-a-simple-inline-announcement-with-markdown-emoji-sparkles-smile",
-          title: 'A simple inline announcement with Markdown emoji! :sparkles: :smile:',
+              window.location.href = "/news/2020_nedb/";
+            },},{id: "news-awarded-the-ibm-phd-fellowship",
+          title: 'Awarded the IBM PhD Fellowship',
+          description: "",
+          section: "News",},{id: "news-i-will-be-a-research-intern-at-netapp",
+          title: 'I will be a research intern at NetApp!',
+          description: "",
+          section: "News",},{id: "news-our-work-endure-a-robust-tuning-paradigm-for-lsm-trees-will-appear-at-vldb-2022",
+          title: 'Our work “ENDURE: A Robust Tuning Paradigm for LSM Trees” will appear at...',
+          description: "",
+          section: "News",},{id: "news-i-will-be-interning-with-the-consistency-team-at-meta",
+          title: 'I will be interning with the consistency team at Meta!',
+          description: "",
+          section: "News",},{id: "news-i-will-be-talking-about-endure-at-a-pingcap-community-meetup",
+          title: 'I will be talking about ENDURE at a PingCap community meetup.',
+          description: "",
+          section: "News",},{id: "news-i-will-be-extending-my-internship-with-meta-into-the-fall",
+          title: 'I will be extending my internship with Meta into the Fall.',
+          description: "",
+          section: "News",},{id: "news-i-will-be-talking-about-endure-at-red-hat-research-days",
+          title: 'I will be talking about ENDURE at Red Hat Research Days.',
+          description: "",
+          section: "News",},{id: "news-i-will-be-talking-about-endure-at-nedb-2023",
+          title: 'I will be talking about ENDURE at NEDB 2023',
+          description: "",
+          section: "News",},{id: "news-our-work-on-benchmarking-learned-and-lsm-indexes-on-data-sortedness-was-accepted-to-dbtest24",
+          title: 'Our work on Benchmarking Learned and LSM Indexes on Data Sortedness was accepted...',
+          description: "",
+          section: "News",},{id: "news-find-me-at-nedb-2024-talking-about-our-latest-project-on-learning-to-tune-lsm-trees",
+          title: 'Find me at NEDB 2024 talking about our latest project on Learning to...',
           description: "",
           section: "News",},{id: "projects-project-1",
           title: 'project 1',
@@ -436,14 +460,21 @@ ninja.data = [{
         title: 'email',
         section: 'Socials',
         handler: () => {
-          window.open("mailto:%79%6F%75@%65%78%61%6D%70%6C%65.%63%6F%6D", "_blank");
+          window.open("mailto:%6E%64%68%75%79%6E%68@%62%75.%65%64%75", "_blank");
         },
       },{
-        id: 'social-inspire',
-        title: 'Inspire HEP',
+        id: 'social-github',
+        title: 'GitHub',
         section: 'Socials',
         handler: () => {
-          window.open("https://inspirehep.net/authors/1010907", "_blank");
+          window.open("https://github.com/ephoris", "_blank");
+        },
+      },{
+        id: 'social-linkedin',
+        title: 'LinkedIn',
+        section: 'Socials',
+        handler: () => {
+          window.open("https://www.linkedin.com/in/ndhuynh0", "_blank");
         },
       },{
         id: 'social-rss',
@@ -457,14 +488,7 @@ ninja.data = [{
         title: 'Google Scholar',
         section: 'Socials',
         handler: () => {
-          window.open("https://scholar.google.com/citations?user=qc6CJjYAAAAJ", "_blank");
-        },
-      },{
-        id: 'social-custom_social',
-        title: 'Custom_social',
-        section: 'Socials',
-        handler: () => {
-          window.open("https://www.alberteinstein.com/", "_blank");
+          window.open("https://scholar.google.com/citations?user=fhHkBB8AAAAJ&hl", "_blank");
         },
       },{
       id: 'light-theme',
